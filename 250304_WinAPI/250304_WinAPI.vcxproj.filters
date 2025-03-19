@@ -87,4 +87,7 @@
       <Filter>2D Framework</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="gitignore.txt" />
+  </ItemGroup>
 </Project>
