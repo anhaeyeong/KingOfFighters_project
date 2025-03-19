@@ -10,6 +10,9 @@
 
 void MainGame::Init()
 {
+	KeyManager::GetInstance()->Init();
+	/*CollisionManager::GetInstance()->Init();*/
+
 	backBuffer = new Image();
 	if (FAILED(backBuffer->Init(WINSIZE_X, WINSIZE_Y)))
 	{
@@ -49,6 +52,9 @@ void MainGame::Release()
 		delete backBuffer;
 		backBuffer = nullptr;
 	}
+
+	CollisionManager::GetInstance()->Release();
+	KeyManager::GetInstance()->Release();
 }
 
 void MainGame::Update()
