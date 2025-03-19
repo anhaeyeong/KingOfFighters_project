@@ -6,15 +6,15 @@ void KOF_Iori::Init()
 	pos = { 0.0f, 0.0f };
 	moveSpeed = 5.0f;
 	image = new Image();
-	if (FAILED(image->Init(TEXT("Image/iori_walk.bmp"), 612, 104, 9, 1, 
-		true, RGB(255,0,255))))
+	if (FAILED(image->Init(TEXT("Image/iori_walk.bmp"), 612, 104, 9, 1,
+		true, RGB(255, 0, 255))))
 	{
 		MessageBox(g_hWnd, TEXT("Image/iori_walk.bmp 파일 로드에 실패"), TEXT("경고"), MB_OK);
 	}
 
 	elapsedFrame = 0;
 	currAnimaionFrame = 0;
-}
+} ////
 
 void KOF_Iori::Release()
 {
