@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="CollisionManager.cpp" />
+=======
+    <ClCompile Include="Character.cpp" />
+>>>>>>> CharacterJH
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="Image.cpp" />
@@ -139,7 +143,11 @@
     <ClCompile Include="Tank.cpp" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClInclude Include="CollisionManager.h" />
+=======
+    <ClInclude Include="Character.h" />
+>>>>>>> CharacterJH
     <ClInclude Include="CommonFunction.h" />
     <ClInclude Include="config.h" />
     <ClInclude Include="Enemy.h" />
