@@ -3,6 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
+=======
+      "AbsoluteMoniker": "D:0:0:{6ABEA605-BD94-4C4E-9DCB-8EC658972AAA}|250304_WinAPI\\250304_WinAPI.vcxproj|C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\250304_WinAPI\\KOF_Iori.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6ABEA605-BD94-4C4E-9DCB-8EC658972AAA}|250304_WinAPI\\250304_WinAPI.vcxproj|solutionrelative:250304_WinAPI\\KOF_Iori.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{6ABEA605-BD94-4C4E-9DCB-8EC658972AAA}|250304_WinAPI\\250304_WinAPI.vcxproj|C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\250304_WinAPI\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6ABEA605-BD94-4C4E-9DCB-8EC658972AAA}|250304_WinAPI\\250304_WinAPI.vcxproj|solutionrelative:250304_WinAPI\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -19,14 +26,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< Updated upstream
+=======
+              "Title": "KOF_Iori.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\250304_WinAPI\\KOF_Iori.cpp",
+              "RelativeDocumentMoniker": "250304_WinAPI\\KOF_Iori.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\250304_WinAPI\\KOF_Iori.cpp",
+              "RelativeToolTip": "250304_WinAPI\\KOF_Iori.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-19T02:42:21.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+>>>>>>> Stashed changes
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\250304_WinAPI\\main.cpp",
               "RelativeDocumentMoniker": "250304_WinAPI\\main.cpp",
               "ToolTip": "C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\250304_WinAPI\\main.cpp",
               "RelativeToolTip": "250304_WinAPI\\main.cpp",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-19T02:31:42.33Z",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-19T02:42:03.307Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             }
           ]
