@@ -18,19 +18,18 @@ void Character::Init()
 	height = 100;
 	characterRC = GetRectAtCenter(pos.x, pos.y, width, height);
 	animationFrame = 0;
-	punchFrame = 0;
 	speed = 10;
 	isFlip = false;
 	_state = State::MOVE;
 	canMove = true;
 
 	characterImage = new Image();
-	if (FAILED(characterImage->Init(TEXT("Image/iori_walk.bmp"), 612, 104)))
+	if (FAILED(characterImage->Init(TEXT("Image/iori_walk.bmp"), 612, 104, 9, 1, true, RGB(255, 0, 255))))
 	{
 		MessageBox(g_hWnd, TEXT("Image/iori_walk.bmp 파일 로드에 실패"), TEXT("경고"), MB_OK);
 	}
-	punchImage = new Image();
-	if (FAILED(punchImage->Init(TEXT("Image/iori_kick.bmp"), 1170, 106)))
+	bigKickImage = new Image();
+	if (FAILED(bigKickImage->Init(TEXT("Image/iori_kick.bmp"), 1170, 106, 10, 1, true, RGB(169, 139, 150))))
 	{
 		MessageBox(g_hWnd, TEXT("Image/iori_kick.bmp 파일 로드에 실패"), TEXT("경고"), MB_OK);
 	}
@@ -44,12 +43,12 @@ void Character::Update()
 		if (KeyManager::GetInstance()->IsStayKeyDown('D'))
 		{
 			Move(10, 0);
-			//isFlip = false;
+			isFlip = false;
 		}
 		else if (KeyManager::GetInstance()->IsStayKeyDown('A'))
 		{
 			Move(-10, 0);
-			//isFlip = true;
+			isFlip = true;
 		}
 		break;
 	case State::ATTACK:
@@ -82,13 +81,15 @@ void Character::Render(HDC hdc)
 	if (_state == State::MOVE)
 	{
 		if (!isFlip)
-			characterImage->RenderX(hdc, pos.x, pos.y, animationFrame, 9, RGB(255, 0, 255));
+			//characterImage->RenderX(hdc, pos.x, pos.y, animationFrame, 9, RGB(255, 0, 255));
+			characterImage->Render(hdc, pos.x, pos.y, animationFrame, isFlip);
 		else
-			characterImage->RenderFlipX(hdc, pos.x, pos.y, animationFrame, 9);
+			//characterImage->RenderFlipX(hdc, pos.x, pos.y, animationFrame, 9);
+			characterImage->Render(hdc, pos.x, pos.y, animationFrame, isFlip);
 	}
 
 	if (_state == State::ATTACK)
-		punchImage->RenderX(hdc, pos.x, pos.y, animationFrame, 10, RGB(169, 139, 150));
+		bigKickImage->Render(hdc, pos.x, pos.y, animationFrame, isFlip);
 	
 	HBRUSH myBrush = (HBRUSH)GetStockObject(NULL_BRUSH);
 	HBRUSH oldBrush = (HBRUSH)SelectObject(hdc, myBrush);

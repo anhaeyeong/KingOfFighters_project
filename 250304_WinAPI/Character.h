@@ -30,6 +30,7 @@ public:
 	void SetFrame(int frame) { animationFrame = frame; }
 
 	int GetAnimationFrame() { return animationFrame; }
+	State GetState() { return _state; }
 
 private:
 	FPOINT pos;
@@ -41,8 +42,8 @@ private:
 
 	Image* characterImage;
 	Image* punchImage;
+	Image* bigKickImage;
 	int animationFrame;
-	int punchFrame;
 
 	bool debugRender = true;
 	bool canMove;

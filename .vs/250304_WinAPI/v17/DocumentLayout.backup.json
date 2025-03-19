@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6ABEA605-BD94-4C4E-9DCB-8EC658972AAA}|250304_WinAPI\\250304_WinAPI.vcxproj|C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\250304_WinAPI\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6ABEA605-BD94-4C4E-9DCB-8EC658972AAA}|250304_WinAPI\\250304_WinAPI.vcxproj|solutionrelative:250304_WinAPI\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ABEA605-BD94-4C4E-9DCB-8EC658972AAA}|250304_WinAPI\\250304_WinAPI.vcxproj|C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\250304_WinAPI\\MainGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6ABEA605-BD94-4C4E-9DCB-8EC658972AAA}|250304_WinAPI\\250304_WinAPI.vcxproj|solutionrelative:250304_WinAPI\\MainGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ABEA605-BD94-4C4E-9DCB-8EC658972AAA}|250304_WinAPI\\250304_WinAPI.vcxproj|C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\250304_WinAPI\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6ABEA605-BD94-4C4E-9DCB-8EC658972AAA}|250304_WinAPI\\250304_WinAPI.vcxproj|solutionrelative:250304_WinAPI\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ABEA605-BD94-4C4E-9DCB-8EC658972AAA}|250304_WinAPI\\250304_WinAPI.vcxproj|C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\250304_WinAPI\\Image.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6ABEA605-BD94-4C4E-9DCB-8EC658972AAA}|250304_WinAPI\\250304_WinAPI.vcxproj|solutionrelative:250304_WinAPI\\Image.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6ABEA605-BD94-4C4E-9DCB-8EC658972AAA}|250304_WinAPI\\250304_WinAPI.vcxproj|C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\250304_WinAPI\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6ABEA605-BD94-4C4E-9DCB-8EC658972AAA}|250304_WinAPI\\250304_WinAPI.vcxproj|solutionrelative:250304_WinAPI\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ABEA605-BD94-4C4E-9DCB-8EC658972AAA}|250304_WinAPI\\250304_WinAPI.vcxproj|C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\250304_WinAPI\\MainGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6ABEA605-BD94-4C4E-9DCB-8EC658972AAA}|250304_WinAPI\\250304_WinAPI.vcxproj|solutionrelative:250304_WinAPI\\MainGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainGame.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\250304_WinAPI\\MainGame.h",
+              "RelativeDocumentMoniker": "250304_WinAPI\\MainGame.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\250304_WinAPI\\MainGame.h",
+              "RelativeToolTip": "250304_WinAPI\\MainGame.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-19T03:10:55.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainGame.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\250304_WinAPI\\MainGame.cpp",
+              "RelativeDocumentMoniker": "250304_WinAPI\\MainGame.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\250304_WinAPI\\MainGame.cpp",
+              "RelativeToolTip": "250304_WinAPI\\MainGame.cpp",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAF4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-19T03:10:48.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Image.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\250304_WinAPI\\Image.cpp",
+              "RelativeDocumentMoniker": "250304_WinAPI\\Image.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\250304_WinAPI\\Image.cpp",
+              "RelativeToolTip": "250304_WinAPI\\Image.cpp",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAlwFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-19T03:05:15.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Character.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\250304_WinAPI\\Character.cpp",
+              "RelativeDocumentMoniker": "250304_WinAPI\\Character.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\250304_WinAPI\\Character.cpp*",
+              "RelativeToolTip": "250304_WinAPI\\Character.cpp*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-19T03:04:43.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Character.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\250304_WinAPI\\Character.h",
+              "RelativeDocumentMoniker": "250304_WinAPI\\Character.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\250304_WinAPI\\Character.h",
+              "RelativeToolTip": "250304_WinAPI\\Character.h",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvysAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-19T03:30:42.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\250304_WinAPI\\main.cpp",
               "RelativeDocumentMoniker": "250304_WinAPI\\main.cpp",
               "ToolTip": "C:\\Users\\user\\Desktop\\kof \uD300\uD50C\\KingOfFighters_project\\250304_WinAPI\\main.cpp",
               "RelativeToolTip": "250304_WinAPI\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-19T02:31:42.33Z",
               "EditorCaption": ""
